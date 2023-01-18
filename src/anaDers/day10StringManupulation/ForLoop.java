@@ -31,7 +31,7 @@ public class ForLoop {
         }
         System.out.println();
         //inc:int i =12;       1)i=i+3  =   2)i+=3    3)sadece 1 ile arttırma da kullan: i++
-        //çarpma da arttırma   1)i=i*3  =  2)i*=3
+        //çarpma da arttırma   1)i=i*3  =   2)i*=3
         //decrement
         /*
         int k=15;                                      bölme ile
@@ -55,7 +55,7 @@ public class ForLoop {
         }
 
         //ex : 28den 157e kadar tüm tek tamsayıları yazdıran kodu yaz
-        for (int i = 28; i > 157; i --) {
+        for (int i = 28; i < 157; i ++) {
             if (i % 2 != 0) {
                 System.out.print(i + " ");
             }

@@ -14,8 +14,9 @@ o methodu "abstract" yapmalısınız.Child Class icin o metod mecburi olur artı
  */
     public abstract void eat();
 
-    //abstaract class larda hemde abstract class hemde "concrete(non-abstract)" method kullanılabilir
+    //abstaract class larda hem abstract class hem de "concrete(non-abstract)" method kullanılabilir
     public void drink(){
+
         System.out.println("Animals drink...");
     }
     public abstract void move();//void yapmak zorunda deiliz,access de degisebilir

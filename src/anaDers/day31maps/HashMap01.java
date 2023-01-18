@@ -99,9 +99,11 @@ public class HashMap01 {
 
         boolean sonuc=studentAge.remove("Ajda",76);//key ve value kullanııyor....remove(object ) sadece key kısmını yazıp sil diyorsun fakat inr return eder
          System.out.println(sonuc);//false dedi 83 oldugu icin ajda
+
          boolean sonuc1=studentAge.remove("Ajda",83);
          System.out.println(sonuc1);//true;EntrySet i siler ve size boolean return eder
          System.out.println(studentAge);//{null=66, Tom=21, Ayhan Isık=null, Brad=12, Cuneyt=76, Sadri Alısık=null, Ali=88}
+
          int result1=studentAge.remove(null);
          System.out.println(result1);//66 : ben key i null olanı sildim onunda value su bu der bize int verir
          System.out.println(studentAge);//{Tom=21, Ayhan Isık=null, Brad=12, Cuneyt=76, Sadri Alısık=null, Ali=88}

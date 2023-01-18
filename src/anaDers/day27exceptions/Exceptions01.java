@@ -35,7 +35,7 @@ package anaDers.day27exceptions;
 
 final(keyword): ==> final method override edilemez.
               final variable degeri degistirilemez.
-              final class child class sahibi olamaz.
+              final class child class sahibi "o l a m a z."
 finally(code block) ==>try ile de kullanılır sadece.veya try-catch block'dan sonra kullanilir ve Exception atilsa da atilmasa da calisir.
 
 finalize(method) ==> Garbage Collector bir data'yi imha etmeden once calistirir.

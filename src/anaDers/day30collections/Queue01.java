@@ -7,7 +7,7 @@ public class Queue01 {
     /*
     ilk giren elemanı ilk kullanmak gerektiginde Queue en iyi secimdir.elemanlar insertion order a gore dizilirler.
     Queue da ,peek(),poll(),element();remove() gibi ilk elemanı ilgilendiren elemanlar vardiir.
-    offer() method u kaspasite kontrolu yapıldıktan sonra eleman ekleme ddurumlarında kullanılır.return;true dur ekleman eklendiyse.yoksa false
+    offer() method u kaspasite kontrolu yapıldıktan sonra eleman ekleme durumlarında kullanılır.return;true dur ekleman eklendiyse.yoksa false
      */
     public static void main(String[] args) {
         Queue<String> wareHouse=new LinkedList<>();//ilk girenin ilk cıkmasıyla alakalı kodlar var

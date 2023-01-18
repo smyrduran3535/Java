@@ -1,0 +1,55 @@
+Karakterler :
+
+            ID	Hasar	Saglik	Para
+Samuray	    1	 5	      21	15
+Okcu	    2	 7	      18	20
+Sovalye	    3	 8	      24	5
+
+
+CANAVARLAR :
+KARAKTERLER	ID	Hasar	Saglik	Para
+ZOMBİ	    1	 3	      10	4
+VAMPİR	    2	 4	      14	7
+AYI	        3  	 7        20	12
+
+
+SILAHLAR :
+SİLAH	   ID	HASAR	PARA
+TABANCA	   1	 2  	25
+KİLİC	   2	 3  	35
+TUFEK	   3   	 7  	45
+
+ZIRHLAR :
+ZIRH	ID	HASAR	PARA
+HAFİF	1	 1	     15
+ORTA	2	 3	     25
+AGIR    3	 5	     40
+
+
+MEKANLAR: (location)
+
+-Guvenli ev-
+      Ozellik: Can yenileniyor
+
+-Magara-
+      Canavar:Zombi(1-3)
+      Ozellik: Savas+ Ganimet
+      Esya : Odun(food)
+
+-Orman-
+      Canavar :Ayi (1-3)
+      Ozellik :Savas+Ganimet
+      Esya : Odun(firewood)
+
+-Nehir-
+      Canavar :Ayi (1-3)
+      Ozellik :Savas+Ganimet
+      Esya : Su(Water)
+
+-Magaza-
+      Ozellik : Magaza
+      Silah : Tabanca,Kilic,Tufek
+      Zirh : Hafif,Orta,Agir
+
+
+

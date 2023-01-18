@@ -2,7 +2,7 @@ package anaDers.day24staticKeyWordAndcapsulation;
 
 //encapsulation:"Data Hiding(Gizlemek)" demektir
 //data yi nicin gizlersiniz? datayı dıs etkenlerden koprumak icin
-//Data yi nasıl gizlersiniz? Access Modifier ini "private" yaparak gizlerim
+//Data yi nasıl gizlersiniz? Access Modifier'ini "private" yaparak gizlerim
 //Data yı gizledikten sonra baska classlardan okumak istersen ne yaparsın?
 // "get" metodlar olusturarak gizledigimiz dataları okunur hale getirebiliriz.get metodlara "getter" da denir
 //Data yı gizledikten sonra baska classlardan degistirmek istersen ne yaparsın?

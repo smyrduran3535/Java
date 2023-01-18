@@ -31,7 +31,7 @@ public class ArrayList02 {
 
         Scanner scan=new Scanner(System.in);
         String harf="";
-        List<String> c = new ArrayList<>();
+        List<String> c=new ArrayList<>();
         c.add("A");
         c.add("K");
         c.add("R");
